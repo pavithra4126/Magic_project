@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Metal+Mania&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/*'Metal Mania', sans-serif*/
+
+/*Resets*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+    margin: 1rem;
+}
+
+.wrapper-container{
+    background-color: rgb(10, 10, 10);
+    
+}
+
+.wrapper-container img{
+   margin: 20px;
+ width: 100px;
+   
+}
+
+html{
+    font-family: 'Metal Mania', sans-serif;
+
+}
+
+/*Nav Start*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    margin-bottom:5rem ;
+}
+
+nav ul{
+    margin-left: 5rem;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.burger{
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.burger span{
+    height: 4px;
+    border: 2px solid black;
+    margin: 4px;
+    background: black;
+}
+
+/*Nav end*/
+
+/*header start*/
+
+header{
+    margin: 2rem;
+   
+    
+}
+
+.main-headings{
+    width: 50%;
+    font-size: 3rem;
+    text-shadow: 2px 2px #ff0000;
+    color: chartreuse;
+}
+
+.primary-headings{
+    width: 50%;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+    color: #ff0000;
+}
+
+.bg-gray{
+    background: rgb(17, 0, 0);
+    color: rgb(226, 11, 11);
+    padding: 2px 10px;
+    font-weight: bold;
+}
+
+/*Header end*/
+
+/*main start*/
+
+main{
+    margin: 0 4rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+
+.img{
+    width:40%;
+    margin: 10px;
+    
+}
+
+/*Main End*/
+
+/*Section-three start*/
+
+.section-three{
+    margin-left: 5rem;
+}
+
+.section-three.primary-headings{
+    margin-bottom: 10rem;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three img{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+}
+
+ .item h1{
+    font-size: 2rem;
+    color: rgb(239, 239, 240);
+}
+
+/*section-three end*/
+
+/*Footer start*/
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 60vh;
+    align-items: center;
+    color: white;
+    background: rosybrown;
+}
+
+.logo-container h1{
+    font-size: 4rem;
+    font-family: 'Metal Mania', sans-serif;
+    margin-bottom: 20px;
+}
+
+.logo-container p{
+    max-width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+.about-company{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-comapany.container{
+   margin-right: 40px;
+   margin-top:20px; 
+}
+
+.container h1{
+    margin-bottom: 50px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media  screen and (max-width:740px) {
+    .main-headings{
+        width: 100%;
+        
+    }
+    .primary-headings{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .main-headings{
+        width: 100%
+    }
+
+    .primary-headings{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+     img{
+        margin:0;
+    }
+    .logo-container{
+        width:100%;
+        font-size: 1rem;
+    }
+    footer{
+        margin-bottom: 20px;
+        margin: 0;
+
+    }
+}
